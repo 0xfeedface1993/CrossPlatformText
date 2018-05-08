@@ -7,44 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		241D9EC320A1519100D689A9 /* CrossPlatformText_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241D9EB920A1519100D689A9 /* CrossPlatformText_macOS.framework */; };
-		241D9EC820A1519100D689A9 /* CrossPlatformTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241D9EC720A1519100D689A9 /* CrossPlatformTextTests.swift */; };
 		241D9ECA20A1519100D689A9 /* CrossPlatformText.h in Headers */ = {isa = PBXBuildFile; fileRef = 241D9EBC20A1519100D689A9 /* CrossPlatformText.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		241D9EE120A151E600D689A9 /* CrossPlatformText_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241D9ED820A151E500D689A9 /* CrossPlatformText_iOS.framework */; };
-		241D9EE620A151E600D689A9 /* CrossPlatformText_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241D9EE520A151E600D689A9 /* CrossPlatformText_iOSTests.swift */; };
 		241D9EE820A151E600D689A9 /* CrossPlatformText_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 241D9EDA20A151E600D689A9 /* CrossPlatformText_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		241D9EF120A1523E00D689A9 /* MethodPower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241D9EF020A1523E00D689A9 /* MethodPower.swift */; };
 		241D9EF220A152DB00D689A9 /* MethodPower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241D9EF020A1523E00D689A9 /* MethodPower.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		241D9EC420A1519100D689A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 241D9EB020A1519000D689A9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 241D9EB820A1519100D689A9;
-			remoteInfo = CrossPlatformText;
-		};
-		241D9EE220A151E600D689A9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 241D9EB020A1519000D689A9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 241D9ED720A151E500D689A9;
-			remoteInfo = CrossPlatformText_iOS;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		241D9EB920A1519100D689A9 /* CrossPlatformText_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrossPlatformText_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		241D9EBC20A1519100D689A9 /* CrossPlatformText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrossPlatformText.h; sourceTree = "<group>"; };
 		241D9EBD20A1519100D689A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		241D9EC220A1519100D689A9 /* CrossPlatformTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossPlatformTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		241D9EC720A1519100D689A9 /* CrossPlatformTextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossPlatformTextTests.swift; sourceTree = "<group>"; };
 		241D9EC920A1519100D689A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		241D9ED820A151E500D689A9 /* CrossPlatformText_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrossPlatformText_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		241D9EDA20A151E600D689A9 /* CrossPlatformText_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrossPlatformText_iOS.h; sourceTree = "<group>"; };
 		241D9EDB20A151E600D689A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		241D9EE020A151E600D689A9 /* CrossPlatformText_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossPlatformText_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		241D9EE520A151E600D689A9 /* CrossPlatformText_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossPlatformText_iOSTests.swift; sourceTree = "<group>"; };
 		241D9EE720A151E600D689A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		241D9EF020A1523E00D689A9 /* MethodPower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodPower.swift; sourceTree = "<group>"; };
@@ -58,26 +35,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		241D9EBF20A1519100D689A9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				241D9EC320A1519100D689A9 /* CrossPlatformText_macOS.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		241D9ED420A151E500D689A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		241D9EDD20A151E600D689A9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				241D9EE120A151E600D689A9 /* CrossPlatformText_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,9 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				241D9EB920A1519100D689A9 /* CrossPlatformText_macOS.framework */,
-				241D9EC220A1519100D689A9 /* CrossPlatformTextTests.xctest */,
 				241D9ED820A151E500D689A9 /* CrossPlatformText_iOS.framework */,
-				241D9EE020A151E600D689A9 /* CrossPlatformText_iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,24 +150,6 @@
 			productReference = 241D9EB920A1519100D689A9 /* CrossPlatformText_macOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		241D9EC120A1519100D689A9 /* CrossPlatformTextTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 241D9ED020A1519100D689A9 /* Build configuration list for PBXNativeTarget "CrossPlatformTextTests" */;
-			buildPhases = (
-				241D9EBE20A1519100D689A9 /* Sources */,
-				241D9EBF20A1519100D689A9 /* Frameworks */,
-				241D9EC020A1519100D689A9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				241D9EC520A1519100D689A9 /* PBXTargetDependency */,
-			);
-			name = CrossPlatformTextTests;
-			productName = CrossPlatformTextTests;
-			productReference = 241D9EC220A1519100D689A9 /* CrossPlatformTextTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		241D9ED720A151E500D689A9 /* CrossPlatformText_iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 241D9EE920A151E600D689A9 /* Build configuration list for PBXNativeTarget "CrossPlatformText_iOS" */;
@@ -227,24 +168,6 @@
 			productReference = 241D9ED820A151E500D689A9 /* CrossPlatformText_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		241D9EDF20A151E600D689A9 /* CrossPlatformText_iOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 241D9EEC20A151E600D689A9 /* Build configuration list for PBXNativeTarget "CrossPlatformText_iOSTests" */;
-			buildPhases = (
-				241D9EDC20A151E600D689A9 /* Sources */,
-				241D9EDD20A151E600D689A9 /* Frameworks */,
-				241D9EDE20A151E600D689A9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				241D9EE320A151E600D689A9 /* PBXTargetDependency */,
-			);
-			name = CrossPlatformText_iOSTests;
-			productName = CrossPlatformText_iOSTests;
-			productReference = 241D9EE020A151E600D689A9 /* CrossPlatformText_iOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -259,13 +182,7 @@
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 0930;
 					};
-					241D9EC120A1519100D689A9 = {
-						CreatedOnToolsVersion = 9.3;
-					};
 					241D9ED720A151E500D689A9 = {
-						CreatedOnToolsVersion = 9.3;
-					};
-					241D9EDF20A151E600D689A9 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
@@ -283,9 +200,7 @@
 			projectRoot = "";
 			targets = (
 				241D9EB820A1519100D689A9 /* CrossPlatformText_macOS */,
-				241D9EC120A1519100D689A9 /* CrossPlatformTextTests */,
 				241D9ED720A151E500D689A9 /* CrossPlatformText_iOS */,
-				241D9EDF20A151E600D689A9 /* CrossPlatformText_iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,21 +213,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		241D9EC020A1519100D689A9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		241D9ED620A151E500D689A9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		241D9EDE20A151E600D689A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,14 +231,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		241D9EBE20A1519100D689A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				241D9EC820A1519100D689A9 /* CrossPlatformTextTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		241D9ED320A151E500D689A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,28 +239,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		241D9EDC20A151E600D689A9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				241D9EE620A151E600D689A9 /* CrossPlatformText_iOSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		241D9EC520A1519100D689A9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 241D9EB820A1519100D689A9 /* CrossPlatformText_macOS */;
-			targetProxy = 241D9EC420A1519100D689A9 /* PBXContainerItemProxy */;
-		};
-		241D9EE320A151E600D689A9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 241D9ED720A151E500D689A9 /* CrossPlatformText_iOS */;
-			targetProxy = 241D9EE220A151E600D689A9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		241D9ECB20A1519100D689A9 /* Debug */ = {
@@ -546,44 +418,6 @@
 			};
 			name = Release;
 		};
-		241D9ED120A1519100D689A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = A272626J38;
-				INFOPLIST_FILE = CrossPlatformTextTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ascp.CrossPlatformTextTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		241D9ED220A1519100D689A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = A272626J38;
-				INFOPLIST_FILE = CrossPlatformTextTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ascp.CrossPlatformTextTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 		241D9EEA20A151E600D689A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -639,51 +473,6 @@
 			};
 			name = Release;
 		};
-		241D9EED20A151E600D689A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A272626J38;
-				INFOPLIST_FILE = CrossPlatformText_iOSTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ascp.CrossPlatformText-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		241D9EEE20A151E600D689A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A272626J38;
-				INFOPLIST_FILE = CrossPlatformText_iOSTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ascp.CrossPlatformText-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -705,29 +494,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		241D9ED020A1519100D689A9 /* Build configuration list for PBXNativeTarget "CrossPlatformTextTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				241D9ED120A1519100D689A9 /* Debug */,
-				241D9ED220A1519100D689A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		241D9EE920A151E600D689A9 /* Build configuration list for PBXNativeTarget "CrossPlatformText_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				241D9EEA20A151E600D689A9 /* Debug */,
 				241D9EEB20A151E600D689A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		241D9EEC20A151E600D689A9 /* Build configuration list for PBXNativeTarget "CrossPlatformText_iOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				241D9EED20A151E600D689A9 /* Debug */,
-				241D9EEE20A151E600D689A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
